@@ -1,0 +1,41 @@
+.mv-button-rounded-green {
+  background: #00BC13;
+  border: 1px solid #00BC13;
+  box-sizing: border-box;
+  color: white;
+  padding: 6px 20px;
+  border-radius: 80px;
+  width: 200px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.mv-nome-botao-ambiente {
+  margin-left: 5px;
+  margin-top: 3px;
+}
+
+.title-cliente {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 19px;
+
+  display: flex;
+  align-items: center;
+
+  color: #454545;
+}
+
+.logo-cliente {
+  margin-bottom: 15px;
+}
+
+.mv-info-empresa-cliente-item {
+  width: 250px;
+  border-top: 1px solid #c3c3c3;
+}
+
+.mv-info-empresa-cliente-item > .title {
+  margin-top: 10px;
+}

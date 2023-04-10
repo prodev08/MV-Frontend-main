@@ -1,0 +1,8 @@
+<mv-ambiente-list
+  [informacaoEmpresaClienteConfig]="$informacaoEmpresaClienteConfigModel | async"
+  [itensDownloads]="$downloads | async"
+  (onClickItemDownload)="clickItemTableDownload($event)"
+  (onClickInformacaoEmpresaClienteAlteracaoSenha)="clickInformacaoEmpresaClienteAlteracaoSenha()"
+  (onClickInformacaoEmpresaClienteAtividades)="clickInformacaoEmpresaClienteAtividades()"
+  (onClickInformacaoEmpresaClienteConfigurarAmbiente)="clickInformacaoEmpresaClienteConfigurarAmbiente()"
+></mv-ambiente-list>
